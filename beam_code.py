@@ -176,7 +176,7 @@ ax = py.gca()
 py.ylim(ax.get_ylim()[::-1]) #Reverse y-axis
 #py.xlim((-floor(z_ap - z_c),50))
 py.hot()
-#py.colorbar(ticks = [1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1.])
+py.colorbar(ticks = [1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1.], label='Power Relative to Optical Axis')
 #py.contour(P_tot, [1e-1,1e-2,1e-3,1e-4,1e-5,1e-6], colors='b')
 #py.plot([0./resolution,5./resolution],[2.8/resolution,2.8/resolution], 'k')
 #py.plot([2.134/resolution,2.134/resolution],[0./resolution,5./resolution], 'k')
